@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddressFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="지역별"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtView1"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="#AEACAC"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="강원도"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtView2"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="#AEACAC"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="경기도"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtView3"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="#AEACAC"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="경상남도"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtView4"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="#AEACAC"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="경상북도"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtView5"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="#AEACAC"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="광주광역시"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtView6"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="#AEACAC"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="대구광역시"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtView7"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="#AEACAC"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="부산광역시"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtView8"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="#AEACAC"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="서울특별시"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtView9"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="#AEACAC"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="세종특별자치시"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtView10"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="#AEACAC"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="울산광역시"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtView11"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="#AEACAC"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="인천광역시"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtView12"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="#AEACAC"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="전라남도"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtView13"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="#AEACAC"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="전라북도"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtView14"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:background="#AEACAC"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="제주특별자치도"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewSubtitle"
+                    android:layout_width="260dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

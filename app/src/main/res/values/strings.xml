@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">미디어 트립</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_with">ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡor countinue withㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ</string>
+
+
+</resources>
